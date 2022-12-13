@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: 0.1em solid tomato;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.navbar-contact, .main-booking{
+    background-color: tomato;
+}
+
+.container{
+    /* background-color: aqua; */
+    /* background-color: black; */
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    /* background-color: green; */
+    /* display: ; */
+    width: 100%;
+    height: 20%;
+    border-bottom: 0.1rem dashed;
+}
+
+.upper-header{
+    width: 90%;
+    height: 35%;
+    margin: 0 auto;
+    /* background-color: coral; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lower-header{
+    /* background-color: darkorange; */
+    /* background-color: black; */
+
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+
+}
+
+.logo{
+    /* background-color: aqua; */
+    /* background-color: black; */
+
+    display: flex;
+    width: 15%;
+
+}
+
+.logo img{
+    /* background-color: red; */
+    background-color: black;
+    /* display: inline; */
+}
+
+/* .logo p{
+} */
+
+.navbar{
+    /* background-color:bisque; */
+    background-color: black;
+
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.content{
+    /* background-color:beige; */
+    background-color: black;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-buttons{
+    /* background-color: blue; */
+    margin-top: 50px;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+

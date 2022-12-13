@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+
+
+.first, .second, .third{
+    width: 200px;
+    height: 100px;
+}
+
+.container{
+    background-color: greenyellow;
+    display: grid;
+    width: 220px;
+}
+
+.first{
+    background-color: aqua;
+    grid-column: 1 /2;
+    grid-row: 1/2;
+
+}
+
+.second{
+    background-color: blueviolet;
+    grid-column: 1 /2;
+    grid-row: 1/2;
+
+}
+.third{
+    grid-column: 1 /2;
+    grid-row: 1/2;
+    background-color: blue;
+}
+
+.change-indicators{
+    /* background-color:rgb(161, 155, 155); */
+    display: flex;
+    font-size: 100px;
+    line-height: 40px;
+    font-weight: bolder;
+    overflow: hidden;
+    
+}
+
+.change-indicators:hover{
+    cursor: pointer;
+}
+
+.first-indicator:hover{
+    color: aqua;
+}
+
+.second-indicator:hover{
+    color: blueviolet;
+}
+
+.third-indicator:hover{
+    color: blue;
+}
